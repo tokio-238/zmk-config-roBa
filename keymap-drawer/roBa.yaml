@@ -42,8 +42,8 @@ layers:
   - {t: SPACE, h: NUM}
   - {t: LANG2, h: NAV}
   - BACKSPACE
-  - {t: ENTER, h: SYM}
-  - {t: DEL, h: FUN}
+  - {t: ENTER, h: FUN}
+  - {t: DEL, h: SYM}
   NAV:
   - Gui+Sft+[
   - Gui+Sft+]
@@ -174,8 +174,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -306,8 +306,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT CLR ALL, type: held}
+  - {type: held}
+  - BT CLR ALL
 combos:
 - p: [11, 12]
   k: TAB
