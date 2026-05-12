@@ -11,7 +11,7 @@ layers:
   - {t: I, h: SCROLL}
   - O
   - P
-  - A
+  - {t: A, h: LEFT SHIFT}
   - S
   - D
   - F
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ''''
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
@@ -36,92 +36,48 @@ layers:
   - .
   - A
   - LCTRL
-  - LEFT WIN
+  - LCMD
   - LEFT ALT
   - '&td_lang_cycle'
-  - {t: SPACE, h: NUM}
+  - {t: SPACE, h: TYPING}
   - {t: LANG2, h: NAV}
   - BACKSPACE
-  - {t: ENTER, h: FUN}
-  - {t: DEL, h: SYM}
-  NAV:
-  - Gui+Sft+[
-  - Gui+Sft+]
-  - Gui+Sft+P
-  - F13
-  - {t: ▽, type: trans}
-  - ESCAPE
-  - HOME
-  - PG UP
-  - PG DN
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - TAB
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+LEFT
-  - Alt+RIGHT
-  - Gui+LEFT
-  - Gui+RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NUM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
+  - DEL
+  TYPING:
+  - ESC
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '&'
   - '7'
   - '8'
   - '9'
-  - /
   - '*'
+  - TAB
+  - '?'
+  - /
+  - '-'
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
+  - ''
   - '4'
   - '5'
   - '6'
-  - '-'
-  - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
+  - '~'
+  - ;
+  - ':'
+  - .
   - ','
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
   - '1'
   - '2'
   - '3'
-  - .
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,50 +88,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYM:
-  - '!'
-  - '?'
-  - '@'
-  - '#'
-  - $
+  NAV:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - UP
+  - ''
+  - HOME
+  - PG UP
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - '['
-  - ']'
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - '>'
-  - _
-  - '&'
-  - \
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - END
+  - PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,50 +220,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  FUN:
-  - F12
-  - F7
-  - F8
-  - F9
-  - PRINTSCREEN
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - F11
-  - F4
-  - F5
-  - F6
-  - SLCK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F10
-  - F1
-  - F2
-  - F3
-  - PAUSE BREAK
-  - '&bootloader'
-  - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - BT CLR ALL
 combos:
 - p: [11, 12]
   k: TAB
